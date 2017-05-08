@@ -50,6 +50,21 @@
             "voice": "Was kann ich sagen",
             "description": "Zeigt eine Liste der möglichen Kommandos."
         },
+         "list-next": {
+            "text": "Nächste Seite",
+            "voice": "Nächste(-Seite) (Befehl) (Seite)",
+            "description": "Zeigt die nächste Seite der Sprachbefehle, die zur Verfügung stehen. (Nur verfügbar, wenn die Befehlsliste angezeigt wird.)"
+        },
+        "list-prev": {
+            "text": "Vorherige Seite",
+            "voice": "Vorherige(-Seite) (Befehl) (Seite)",
+            "description": "Zeigt die vorherige Seite der Sprachbefehle, die zur Verfügung stehen. (Nur verfügbar, wenn die Befehlsliste angezeigt wird.)"
+        },
+        "list-page": {
+            "text": "Gehe auf Seite _______",
+            "voice": "(Springe auf) (Gehe auf) (Befehl) Seite *pageNum",
+            "description": "Zeigt die gewünschte Seite der Sprachbefehle, die zur Verfügung stehen. (Nur verfügbar, wenn die Befehlsliste angezeigt wird.)"
+        },
         "home": {
             "text": "Zurück",
             "voice": "Zurück",
@@ -59,11 +74,6 @@
             "text": "Ausschalten",
             "voice": "Ausschalten",
             "description": "Schaltet den Bildschirm aus."
-        },
-        "wake_up": {
-            "text": "Einschalten",
-            "voice": "Einschalten",
-            "description": "Schaltet den Bildschirm ein."
         },
         "debug": {
             "text": "Zeige Fehlerprotokoll",
@@ -189,6 +199,51 @@
             "text": "Schalte (das|die) Licht(er) (action)",
             "voice": "(Schalte) (das) (die) Licht(er) *action",
             "description": "Steuert Farbe und Helligkeit von Lichtern."
-        }
+        },
+        "show_remoteQR":{
+            "text": "Zeige Link",
+            "voice": "Zeige (QR code) (QR) (link)",
+            "description": "Zeigt die lokale IP der Remote App URL"
+        },
+        "todoist_show": {
+            "text": "Zeige (meine) ________ Liste",
+            "voice": "Zeige (meine) *project list",
+            "description": "Zeige angeforderte Liste."
+        },
+        "todoist_add": {
+            "text": "Füge ________ zu (meiner) ________ Liste hinzu",
+            "voice": "Füge *element to (my) *project list hinzu",
+            "description": "Fügt die Aufgabe der Liste hinzu."
+        },
+        "todoist_remove": {
+            "text": "Entferne ________ von (meiner) ________ Liste",
+            "voice": "Entferne *element from (my) *project list",
+            "description": "Entfernt Aufgabe von der Liste"
+        },
+         "fitbit": {
+        "user": "Benutzer: ",
+        "averageSteps": "Mittlere Schrittzahl: ",
+        "batteryStatus": "Batteriestatus: ",
+        "today": "Heute",
+        "steps": "Schritte",
+        "caloriesBurned": "Verbrannte Kalorien",
+        "lastSync": "Letzte Aktualisierung",
+        "average": "Durchschnitt",
+        "activeMinutes": "Aktive Minuten",
+        "distance": "km",
+        "floors": "floors",
+        "topBadges": "Top Badges",
+        "sleep": "Ruhen",
+        "lastNight": "Letzte Nacht",
+        "awake": "Wach",
+        "restless": "Pausenlos",
+        "hours": "Std",
+        "km": "km",
+        "miles": "mi",
+        "minutes": "min",
+        "times": "x",
+        "restingHR": "Herzfrequenz in Ruhe",
+        "bpm": "bpm"
+        },
     }
 }
